@@ -9,6 +9,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white text-black m-4">
       <h2 className="text-2xl font-semibold mb-2 p-4">{project.title}</h2>
       <p className="p-4">{project.description}</p>
+      {/* eslint-disable-next-line */}
       <img src={project.image} alt={project.title} />
       <a
         href={project.link}
