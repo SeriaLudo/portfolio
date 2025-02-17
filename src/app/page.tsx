@@ -1,6 +1,6 @@
 "use client";
 
-import cmsData from "./smsData.json";
+import cmsData from "./cmsData.json";
 import { LandingPage } from "./components/LandingPage";
 
 export default function Home() {
