@@ -17,7 +17,8 @@
       "id": "2",
       "title": "Business-Centric Solutions",
       "description": "Developed tailored data solutions to support business operations, enhance decision-making, and improve efficiency...",
-      "link": "/projects/business"
+      "link": "/projects/business",
+      "image": "/images/banktelmart.jpg"
     }
   ],
   "footer": {
