@@ -14,7 +14,9 @@ export function Intro({
           {username}
         </h2>
       </div>
+
       <h4 className="text-center md:text-left text-lg mt-5 md:mt-0 md:pl-8">
+        Contact details here <br />
         {introText}
       </h4>
     </section>
