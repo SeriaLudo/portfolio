@@ -24,7 +24,7 @@ content:
   
   - name: settings
     label: Settings
-    type: file
+    type: collection
     path: _settings
     fields:
       - { name: userName, label: User Name, type: string, required: true }
