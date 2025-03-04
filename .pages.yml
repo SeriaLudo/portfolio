@@ -2,6 +2,7 @@ media:
   input: public/assets
   output: /assets
   categories: [ "image" ]
+
 content:
   - name: posts
     label: Posts
@@ -20,3 +21,10 @@ content:
         fields:
           - { name: url, label: URL, type: image }
       - { name: body, label: Body, type: rich-text }
+  
+  - name: settings
+    label: Settings
+    type: settings
+    fields:
+      - { name: userName, label: User Name, type: string, required: true }
+      - { name: userIntro, label: User Intro, type: string, required: true }
