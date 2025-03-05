@@ -6,6 +6,9 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required if you're using the Next.js Image component
   },
+  env: {
+    BASE_PATH: "/nextjs-blog",
+  },
 };
 
 module.exports = nextConfig;
