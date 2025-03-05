@@ -1,11 +1,10 @@
 ---
-title: Adding a quick entry title Joel
-excerpt: Testing a brief string adding  preview
-coverImage: /assets/blueness.jpeg
-date: "2025-02-22T20:08:00.000Z"
-author:
-  name: Joel Kallstrom
-  picture: /assets/Wallpapers-pexels-photo.jpg
+title: Telcos Customer Churn Prediction Model
+excerpt: I leveraged machine learning techniques and conducted comprehensive
+  exploratory data analysis to uncover key trends and patterns in telecom
+  customer churn, enabling data-driven insights to enhance customer retention
+  strategies...
+coverImage: /assets/telecom.webp
+date: 2025-02-22T20:08:00.000Z
 ---
-
-Testing body text let's go.
+_I leveraged machine learning techniques and conducted comprehensive exploratory data analysis to uncover key trends and patterns in telecom customer churn, enabling data-driven insights to enhance customer retention strategies..._
