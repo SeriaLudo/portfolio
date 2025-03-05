@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required if you're using the Next.js Image component
   },
+  // add base path for gh-pages
   env: {
     BASE_PATH: "/portfolio",
   },
