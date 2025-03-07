@@ -4,12 +4,15 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
+import { getLatestSettings } from "@/lib/getSettings";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const { userName, userIntro } = getLatestSettings();
+
 export const metadata: Metadata = {
-  title: `Next.js Blog Example with ${CMS_NAME}`,
-  description: `A statically generated blog example using Next.js and ${CMS_NAME}.`,
+  title: `Portfolio | ${userName}`,
+  description: userIntro,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
   },
