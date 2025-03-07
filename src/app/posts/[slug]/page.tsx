@@ -30,8 +30,7 @@ export default async function Post({ params }: Params) {
             coverImage={post.coverImage}
             date={post.date}
           />
-          <PostBody content={content} />
-          {post.link && <Link href={post.link}>Check it out!</Link>}
+          <PostBody content={content} link={post.link || ""} />
         </article>
       </Container>
     </main>
