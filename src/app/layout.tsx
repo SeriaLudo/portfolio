@@ -1,5 +1,3 @@
-import Footer from "@/app/_components/footer";
-import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -13,9 +11,9 @@ const { userName, userIntro } = getLatestSettings();
 export const metadata: Metadata = {
   title: `Portfolio | ${userName}`,
   description: userIntro,
-  openGraph: {
-    images: [HOME_OG_IMAGE_URL],
-  },
+  // openGraph: {
+  //   // images: [HOME_OG_IMAGE_URL],
+  // },
 };
 
 export default function RootLayout({
