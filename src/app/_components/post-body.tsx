@@ -1,3 +1,4 @@
+import Link from "next/link";
 import markdownStyles from "./markdown-styles.module.css";
 import DOMPurify from "isomorphic-dompurify";
 

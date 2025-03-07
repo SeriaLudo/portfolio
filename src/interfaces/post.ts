@@ -6,4 +6,5 @@ export type Post = {
   excerpt: string;
   content: string;
   preview?: boolean;
+  link?: string;
 };

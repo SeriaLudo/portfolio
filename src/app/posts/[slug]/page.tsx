@@ -8,6 +8,7 @@ import Container from "../../_components/container";
 import Header from "../../_components/header";
 import { PostBody } from "../../_components/post-body";
 import { PostHeader } from "../../_components/post-header";
+import Link from "next/link";
 
 export default async function Post({ params }: Params) {
   const post = getPostBySlug(params.slug);
@@ -30,6 +31,7 @@ export default async function Post({ params }: Params) {
             date={post.date}
           />
           <PostBody content={content} />
+          {post.link && <Link href={post.link}>Check it out!</Link>}
         </article>
       </Container>
     </main>
