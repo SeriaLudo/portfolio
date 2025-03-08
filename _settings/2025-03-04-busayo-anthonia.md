@@ -5,4 +5,5 @@ userIntro: "I specialize in data engineering and analytics, designing and
   portfolio highlights scalable ETL processes, advanced analytics tools, and
   impactful solutions for complex data challenges. Let’s connect and collaborate
   to unlock the full potential of data! "
+metaImage: /assets/lily.jpeg
 ---
