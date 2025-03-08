@@ -1,5 +1,5 @@
 ---
-title: Forecasting Apple Stock Prices with ARIMA Models and Python
+title: Forecasting Apple/Google  Stock Prices with ARIMA Models and Python
 excerpt: This project utilizes time-series
 coverImage: /assets/stockprice.png
 date: 2024-06-14T00:00:00.000Z
