@@ -1,8 +1,10 @@
 ---
-title: Forecasting Apple/Google  Stock Prices with ARIMA Models and Python
-excerpt: This project utilizes time-series
-coverImage: /assets/stockprice.png
+title: "Enhancing Stock Market Predictions: A Deep Dive into ARIMA Modeling"
+excerpt: Explore advanced techniques for stock market forecasting, highlighting
+  the power of ARIMA models, data preprocessing, and residual analysis to make
+  financial forecasting more precise and efficient
+coverImage: /assets/forecastingstock.png
 date: 2024-06-14T00:00:00.000Z
-link: https://mybinder.org/v2/gh/AnnieFiB/my_projects/e6f5426d227504a75644a2727caefc30529cb9d2?urlpath=lab%2Ftree%2FDataAnalysis%2Fnotebooks%2Fexploratory%2FARIMA%20Forecasting%20Google%20Stock%20Prices-.ipynb
+link: https://github.com/AnnieFiB/my_projects/blob/main/DataAnalysis/notebooks/ARIMA%20Forecasting_Stock_Prices.ipynb
 ---
-This project utilizes time-series analysis and ARIMA (AutoRegressive Integrated Moving Average) models to forecast Apple Inc. (AAPL) stock prices. Built in Python, it offers a hands-on exploration of advanced statistical modeling for predicting stock market trends. Ideal for data science enthusiasts, finance professionals, and Python developers, this project provides a practical guide to time-series forecasting and its real-world applications in financial markets. Dive into the code, experiment with the models, and uncover insights into stock price prediction!
+In this analysis, I delve into the intricate process of stock market forecasting using ARIMA models. Learn about the critical steps, from preprocessing stock data and testing for stationarity to identifying optimal ARIMA parameters and evaluating residuals. Perfect for finance enthusiasts and data analysts, this guide blends theoretical insights with practical applications to refine your predictive modeling skills. Discover how to transform raw data into actionable insights for informed investment decisions!
