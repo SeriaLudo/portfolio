@@ -7,7 +7,7 @@ excerpt: Designed and developed an interactive dashboard using Python and
   for version control and collaboration.
 coverImage: /assets/weatherUI.jpg
 date: 2025-02-20T00:00:00.000Z
-link: https://myprojects-weatherforecast.streamlit.app/
+link: https://weathercomparisontool-v1.streamlit.app/
 ---
 This project aimed to combine data engineering and visualization skills to create a user-friendly weather insights tool. Built with **Python** and **Streamlit**, the app fetches real-time weather data from the **OpenWeather API** based on user-inputted cities or locations. Users can view and compare key weather indicators, including temperature, humidity, wind speed, and air quality.
 
