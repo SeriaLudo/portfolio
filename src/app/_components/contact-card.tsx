@@ -32,20 +32,15 @@ export function ContactCard() {
 
   return (
     <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-      {contacts.map(({ key, url, Icon }) => (
-        <div key={key} className="w-6 h-6">
-          {url ? (
+      {contacts
+        .filter((contact) => contact.url)
+        .map(({ key, url, Icon }) => (
+          <div key={key} className="w-6 h-6">
             <a href={url} target="_blank" rel="noopener noreferrer">
               <Icon className="w-full h-full" />
             </a>
-          ) : (
-            // Render a placeholder icon if the URL isn’t provided.
-            <div className="opacity-50">
-              <Icon className="w-full h-full" />
-            </div>
-          )}
-        </div>
-      ))}
+          </div>
+        ))}
     </div>
   );
 }

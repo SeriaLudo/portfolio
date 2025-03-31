@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ContactCard } from "./contact-card";
 
 const Header = () => {
   return (
@@ -9,6 +10,9 @@ const Header = () => {
         </Link>
         .
       </h2>
+      <div className="right-0 top-0 absolute p-5">
+        <ContactCard />
+      </div>
     </>
   );
 };
