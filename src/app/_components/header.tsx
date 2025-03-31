@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ContactCard } from "@/app/_components/contact-card";
+
 const Header = () => {
   return (
     <>
@@ -9,7 +9,6 @@ const Header = () => {
         </Link>
         .
       </h2>
-      <ContactCard />
     </>
   );
 };
