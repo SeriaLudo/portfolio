@@ -3,6 +3,7 @@ title: Advanced Data Analysis for HR Attrition Using Python
 excerpt: Unlock the power of Python for HR attrition analysis. Dive into
   strategies for data quality checks, attrition rate visualization, and
   predictive modeling to enhance workforce management.
+coverImage: /assets/HR attrition analysis-2.png
 date: 2025-03-22T17:15:00.000Z
 link: https://github.com/AnnieFiB/my_projects/blob/main/DataAnalysis/notebooks/HR%20Attrition%20Analysis.ipynb
 ---
