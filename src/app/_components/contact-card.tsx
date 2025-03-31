@@ -9,7 +9,8 @@ import {
 } from "./icons";
 
 export function ContactCard() {
-  const { facebook, github, linkedin, bluesky, twitter } = getLatestSettings();
+  const { facebook, github, linkedin, bluesky, twitter, email, phone } =
+    getLatestSettings();
 
   const contacts = [
     { key: "facebook", url: facebook, Icon: FacebookIcon },
@@ -17,10 +18,20 @@ export function ContactCard() {
     { key: "linkedin", url: linkedin, Icon: LinkedInIcon },
     { key: "github", url: github, Icon: GitHubIcon },
     { key: "bluesky", url: bluesky, Icon: BlueSkyIcon },
+    {
+      key: "email",
+      url: email,
+      Icon: () => <span className="text-gray-500">✉️</span>,
+    }, // Placeholder for email icon
+    {
+      key: "phone",
+      url: phone,
+      Icon: () => <span className="text-gray-500">📞</span>,
+    }, // Placeholder for phone icon
   ];
 
   return (
-    <div className="flex space-x-4">
+    <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
       {contacts.map(({ key, url, Icon }) => (
         <div key={key} className="w-6 h-6">
           {url ? (
