@@ -3,6 +3,7 @@ title: Predicting Telco Customer Churn Using Machine Learning
 excerpt: Discover how telecom companies can leverage machine learning to
   minimize customer churn by identifying at-risk customers and enabling
   proactive retention strategies.
+coverImage: /assets/interconnected data1..png
 date: 2023-04-25T23:09:00.000Z
 link: https://www.kaggle.com/code/busayof/telco-customer-churn-prediction
 ---
