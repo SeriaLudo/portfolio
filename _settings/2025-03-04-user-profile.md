@@ -1,7 +1,11 @@
 ---
 
-userName: User Name
-userIntro: "I am passionate about leveraging technology to solve problems and create innovative solutions. My portfolio showcases a variety of projects and skills that demonstrate my expertise and dedication. Let’s connect and explore opportunities to collaborate! With a strong foundation in software development and a keen eye for detail, I strive to deliver high-quality solutions that exceed expectations. Whether it's building scalable applications, designing intuitive user experiences, or exploring cutting-edge technologies, I am always eager to take on new challenges and grow professionally."
+userName: Busayo Anthonia
+userIntro: "I specialize in data engineering and analytics, designing and
+optimizing data pipelines to turn raw data into actionable insights. My
+portfolio highlights scalable ETL processes, advanced analytics tools, and
+impactful solutions for complex data challenges. Let’s connect and collaborate
+to unlock the full potential of data! "
 metaImage: /assets/lily.jpeg
 instagram: https://www.instagram.com
 facebook: https://www.facebook.com
