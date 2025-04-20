@@ -5,8 +5,8 @@ export function Intro() {
   const { userName, userIntro } = getLatestSettings();
 
   return (
-    <section className="relative flex flex-col md:flex-row items-center md:justify-between mt-16 mb-16 md:mb-12">
-      <div className="absolute top-0 right-0">
+    <section className="relative flex flex-col items-center md:items-start mt-16 mb-16 md:mb-12">
+      <div className="mb-8">
         <ContactCard />
       </div>
       <div className="flex flex-col md:mr-8">
