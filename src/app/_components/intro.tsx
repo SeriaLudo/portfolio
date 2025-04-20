@@ -18,7 +18,7 @@ export function Intro() {
         </h2>
       </div>
       <div className="relative w-full md:w-auto">
-        <h4 className="text-center md:text-left text-lg mt-8 md:mt-0 md:pl-8">
+        <h4 className="text-center md:text-left text-lg md:text-2xl mt-8 md:mt-0 md:pl-8">
           {userIntro}
         </h4>
       </div>
