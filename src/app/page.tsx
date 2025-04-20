@@ -4,6 +4,7 @@ import { Intro } from "@/app/_components/intro";
 import { MoreStories } from "@/app/_components/more-stories";
 import { getAllPosts } from "../lib/api";
 import { ContactCard } from "./_components/contact-card";
+import { NavBar } from "./_components/nav-bar";
 
 export default function Index() {
   const allPosts = getAllPosts();
@@ -15,6 +16,7 @@ export default function Index() {
   return (
     <main>
       <Container>
+        <NavBar />
         <Intro />
         <HeroPost
           title={heroPost.title}
